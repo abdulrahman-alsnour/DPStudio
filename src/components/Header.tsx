@@ -32,7 +32,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3 animate-slide-in-left">
-            <img src={logo} alt="DigitalPulseStudio" className="h-12 w-auto" />
+            <img src={logo} alt="DigitalPulseStudio" className="h-16 w-auto" />
           </div>
 
           {/* Desktop Navigation */}

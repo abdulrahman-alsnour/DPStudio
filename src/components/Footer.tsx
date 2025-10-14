@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo & Tagline */}
           <div className="flex flex-col items-center md:items-start gap-3">
-            <img src={logo} alt="DigitalPulseStudio" className="h-10 w-auto" />
+            <img src={logo} alt="DigitalPulseStudio" className="h-14 w-auto" />
             <p className="text-sm text-muted-foreground text-center md:text-left">
               Bringing Business to Life Online
             </p>
