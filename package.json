@@ -2,11 +2,12 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://abdulrahman-alsnour.github.io/digitalpulsestudio",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:dev": "vite build --mode development",
+    "build: dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -79,5 +80,6 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
     "vite": "^5.4.19"
-  }
+  },
+  
 }
