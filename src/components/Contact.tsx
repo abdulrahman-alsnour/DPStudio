@@ -1,4 +1,4 @@
-import { Mail, Instagram, Laptop, MessageSquare } from "lucide-react";
+import { Mail, Instagram, Laptop, MessageSquare, Phone } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Contact = () => {
@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Cards */}
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6 mb-12">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6 mb-12">
           {/* Email Card */}
           <Card className="group hover:border-primary transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,168,232,0.2)] animate-fade-in bg-card/80 backdrop-blur">
             <CardHeader>
@@ -31,16 +31,37 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <a
-                href="mailto:contact.digitalpulsestudio@gmail.com"
+                href="mailto:digitalpulsestudio03@gmail.com"
                 className="text-primary hover:text-accent transition-colors font-semibold text-lg break-all"
               >
-                contact.digitalpulsestudio@gmail.com
+                digitalpulsestudio03@gmail.com
+              </a>
+            </CardContent>
+          </Card>
+
+          {/* WhatsApp Card */}
+          <Card className="group hover:border-primary transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,168,232,0.2)] animate-fade-in bg-card/80 backdrop-blur" style={{ animationDelay: "0.1s" }}>
+            <CardHeader>
+              <div className="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <Phone className="w-7 h-7 text-primary" />
+              </div>
+              <CardTitle className="text-xl">WhatsApp</CardTitle>
+              <CardDescription>Chat with us instantly</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <a
+                href="https://wa.me/962798159012"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-accent transition-colors font-semibold text-lg"
+              >
+                +962 79 815 9012
               </a>
             </CardContent>
           </Card>
 
           {/* Instagram Card */}
-          <Card className="group hover:border-primary transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,168,232,0.2)] animate-fade-in bg-card/80 backdrop-blur" style={{ animationDelay: "0.1s" }}>
+          <Card className="group hover:border-primary transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,168,232,0.2)] animate-fade-in bg-card/80 backdrop-blur" style={{ animationDelay: "0.2s" }}>
             <CardHeader>
               <div className="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                 <Instagram className="w-7 h-7 text-primary" />

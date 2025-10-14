@@ -1,4 +1,4 @@
-import { Monitor, Smartphone, Search, Palette, Wrench } from "lucide-react";
+import { Monitor, Smartphone, Search, Palette, Wrench, ShoppingCart } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
@@ -26,6 +26,11 @@ const services = [
     icon: Wrench,
     title: "Maintenance & Support",
     description: "Ongoing support and maintenance to keep your website secure, up-to-date, and performing at its best.",
+  },
+  {
+    icon: ShoppingCart,
+    title: "E-commerce Solutions",
+    description: "Build powerful online stores with secure payment integration, inventory management, and seamless shopping experiences.",
   },
 ];
 

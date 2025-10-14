@@ -74,10 +74,10 @@ const Hero = () => {
             <p className="text-sm text-muted-foreground mb-4">Contact</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-foreground">
               <a
-                href="mailto:contact.digitalpulsestudio@gmail.com"
+                href="mailto:digitalpulsestudio03@gmail.com"
                 className="hover:text-primary transition-colors flex items-center gap-2"
               >
-                📧 contact.digitalpulsestudio@gmail.com
+                📧 digitalpulsestudio03@gmail.com
               </a>
               <span className="hidden sm:inline text-muted-foreground">•</span>
               <a

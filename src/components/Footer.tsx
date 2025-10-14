@@ -18,10 +18,18 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="flex flex-col items-center md:items-end gap-2 text-sm text-muted-foreground">
             <a
-              href="mailto:contact.digitalpulsestudio@gmail.com"
+              href="mailto:digitalpulsestudio03@gmail.com"
               className="hover:text-primary transition-colors"
             >
-              contact.digitalpulsestudio@gmail.com
+              digitalpulsestudio03@gmail.com
+            </a>
+            <a
+              href="https://wa.me/962798159012"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+            >
+              WhatsApp: +962 79 815 9012
             </a>
             <a
               href="https://instagram.com/DigitalPulseStudio.jo"
