@@ -44,10 +44,23 @@ jobs:
       - name: List dist contents
         run: ls -la dist/
 
+      - name: Create a simple test deployment
+        run: |
+          mkdir -p public
+          echo '<!DOCTYPE html>
+          <html>
+          <head><title>Digital Pulse Studio</title></head>
+          <body>
+            <h1>Digital Pulse Studio</h1>
+            <p>Testing deployment...</p>
+            <p>If you see this, the deployment is working!</p>
+          </body>
+          </html>' > public/index.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./public
 
   deploy:
     environment:
