@@ -1,77 +1,86 @@
 # Digital Pulse Studio
 
-A modern React application built with Vite, TypeScript, and Tailwind CSS.
+A modern React application built with Vite, TypeScript, and Tailwind CSS. This is a professional portfolio website showcasing digital services and creative work.
 
-# Welcome to your Lovable project
+## 🚀 Features
 
-## Project info
+- **Modern Design**: Clean, professional interface with smooth animations
+- **Responsive Layout**: Optimized for all devices and screen sizes
+- **Performance**: Built with Vite for lightning-fast development and builds
+- **TypeScript**: Full type safety and better development experience
+- **Tailwind CSS**: Utility-first CSS framework for rapid styling
+- **shadcn/ui**: Beautiful, accessible UI components
 
-**URL**: https://lovable.dev/projects/07f3bd34-e01a-4a2a-ada0-ef80a75016be
+## 🛠️ Technologies Used
 
-## How can I edit this code?
+- **Vite** - Build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI library
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - High-quality UI components
+- **React Router** - Client-side routing
 
-There are several ways of editing your application.
+## 📦 Installation & Setup
 
-**Use Lovable**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/abdulrahman-alsnour/DigitalPulseStudio.git
+   cd DigitalPulseStudio
+   ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/07f3bd34-e01a-4a2a-ada0-ef80a75016be) and start prompting.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Changes made via Lovable will be committed automatically to this repo.
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-**Use your preferred IDE**
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🌐 Deployment
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This project is deployed on GitHub Pages and is live at:
+**https://abdulrahman-alsnour.github.io/DigitalPulseStudio/**
 
-Follow these steps:
+## 📁 Project Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/          # React components
+│   ├── ui/             # shadcn/ui components
+│   ├── Header.tsx      # Navigation header
+│   ├── Hero.tsx        # Hero section
+│   ├── Services.tsx    # Services showcase
+│   ├── Portfolio.tsx   # Portfolio gallery
+│   └── Contact.tsx     # Contact form
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── assets/             # Images and static files
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Customization
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Update content in the respective component files
+- Modify styles using Tailwind CSS classes
+- Add new components following the existing structure
+- Configure routing in the main App component
 
-**Use GitHub Codespaces**
+## 📄 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is open source and available under the [MIT License](LICENSE).
 
-## What technologies are used for this project?
+## 👨‍💻 Author
 
-This project is built with:
+**Abdulrahman Alsnour**
+- GitHub: [@abdulrahman-alsnour](https://github.com/abdulrahman-alsnour)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/07f3bd34-e01a-4a2a-ada0-ef80a75016be) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Built with ❤️ using modern web technologies.
