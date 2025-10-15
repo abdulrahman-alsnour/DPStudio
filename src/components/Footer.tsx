@@ -32,12 +32,12 @@ const Footer = () => {
               WhatsApp: +962 79 815 9012
             </a>
             <a
-              href="https://instagram.com/DigitalPulseStudio.jo"
+              href="https://instagram.com/dpstudio.jo"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
             >
-              @DigitalPulseStudio.jo
+              @dpstudio.jo
             </a>
           </div>
         </div>

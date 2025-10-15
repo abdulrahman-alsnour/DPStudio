@@ -71,12 +71,12 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <a
-                href="https://instagram.com/DigitalPulseStudio.jo"
+                href="https://instagram.com/dpstudio.jo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:text-accent transition-colors font-semibold text-lg"
               >
-                @DigitalPulseStudio.jo
+                @dpstudio.jo
               </a>
             </CardContent>
           </Card>
